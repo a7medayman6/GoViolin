@@ -265,7 +265,6 @@ Configured a CI pipeline using github actions to build and push the docker image
 
 
 ![](Readme-Images/jenkins-ss-full.png)
-
  
 
 - Push and Deploy Stages
@@ -289,3 +288,4 @@ On each commit or pull request to the GitHub repo
 - Push the Built Image to Dockerhub 
 - Deploy an instance of the application on kubernetes and make it accessible to the web 
 - Also the pipeline reports by email for the success or failure of any stage  
+
